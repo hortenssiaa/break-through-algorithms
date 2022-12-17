@@ -222,3 +222,22 @@ if x > 0 and x < 20:
 
 if 0 < x < 20:
     print(f"0 < {x} < 20")
+
+
+
+
+
+# 8. 반복문
+# 8.1 중첩 반복문
+'''
+- 플로이드 워셜 알고리즘
+- 다이나믹 프로그래밍 등에서 많이 사용된다.
+'''
+scores = [90, 85, 77, 65, 97]
+cheating_list = [2, 4]
+
+for i in range(5):
+    if i + 1 in cheating_list:
+        continue
+    if scores[i] >= 80:
+        print(i + 1)
