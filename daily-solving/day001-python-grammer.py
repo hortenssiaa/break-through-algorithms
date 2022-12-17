@@ -240,4 +240,101 @@ for i in range(5):
     if i + 1 in cheating_list:
         continue
     if scores[i] >= 80:
-        print(i + 1)
+        print(i + 1, "번 학생은 합격입니다.")
+
+
+
+
+
+
+
+# 9. 함수
+# 문제 푸는 코드를 함수화하면, 매우 효과적으로 풀 수 있다.
+
+# 9.1 global
+# 함수 안에서, 함수 밖의 변수 데이터를 변경해야하는 경우
+a = 0
+
+def func():
+    global a
+    a += 1
+
+for i in range(10):
+    func()
+
+print(a) # 10
+
+
+# 9.2 람다 표현식
+# python의 정렬 라이브러리를 사용할때, 정렬 기준 (key)를 설정할 때에도 자주 사용된다.
+def add(a, b):
+    return a+b
+
+# 일반적인 add() 메서드 사용
+print(add(3, 7))
+
+# 람다 표현식으로 구현한 add() 메서드
+print( (lambda a, b: a+b)(3, 7) )
+
+
+
+
+
+
+
+
+
+
+
+
+# 10. 입출력
+# 10.1 입력을 위한 전혁적인 소스코드
+''' list(map(int, input().split())) '''
+
+# ex 1)
+# 데이터의 개수 입력
+n = int(input())
+# 각 데이터를 공백으로 구분하여 입력
+data = list(map(int, input().split()))
+
+data.sort(reverse=True)
+print(data)
+'''
+input
+5
+65 90 75 34 99
+
+result
+[99, 90, 75, 65, 34]
+'''
+
+
+# ex 2)
+# n, m, k를 공ㅇ백으로 구분하여 입력
+n, m, k = map(int, input().split())
+print(n, m, k)
+
+
+
+
+# 10.2 더 빠른 코드 - sys.stdin.readline()
+'''
+- sys 라이브러리를 사용할때는, 한 줄 입력을 받고 나서 rstrip() 을 꼭 호출해야 한다.
+- sys.stdin.readline() 까지만 작성하면, 입력 후 엔터가 줄바꿈 기호로 입력된다. 
+   > 이때 이 공백 문자를 제거하려면, rstrip() 함수를 사용해야한다. 
+'''
+import sys
+
+# 문자열 입력받기
+data = sys.stdin.readline().rstrip()
+print(data)
+
+
+
+# 10.3 변수를 문자열로 출력
+answer = 7
+
+print("정답은 " + answer + " 입니다.") # error
+print("정답은 " + str(answer) + "입니다.") # 정답은 7입니다.
+print("정답은", answer, "입니다.") # 정답은 7 입니다. (띄어쓰기 포함! )
+print(f"정답은 {answer}입니다.") # 정답은 7입니다.
