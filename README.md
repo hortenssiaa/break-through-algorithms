@@ -2,7 +2,7 @@
 ### Contents
 
 1. [Python grammer for coding-test](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#1-python-grammer-for-coding-test-code)
-2. [Python library for coding-test](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#1-python-library-for-coding-test-code)
+2. [Python library for coding-test](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#2-python-library-for-coding-test-code)
 
 ----
 <br>
@@ -12,19 +12,19 @@
 <br>
 1.2 [List](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#12-list)
 <br>
-1.3 [문자열]()
+1.3 [문자열](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#13-문자열)
 <br>
-1.4 [튜플]()
+1.4 [튜플](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#14-튜플)
 <br>
-1.5 [Dictionary 사전]()
+1.5 [Dictionary 사전](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#15-dictionary-사전)
 <br>
-1.6 [Set 집합]()
+1.6 [Set 집합](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#16-set-집합)
 <br>
-1.7 [조건문]()
+1.7 [조건문](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#17-조건문)
 <br>
-1.8 [반복문]()
+1.8 [반복문](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#18-반복문)
 <br>
-1.9 [함수]()
+1.9 [함수](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#19-함수)
 
 <br>
 <br>
