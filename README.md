@@ -2,15 +2,15 @@
 ### Contents
 
 1. [Python grammer for coding-test](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#1-python-grammer-for-coding-test-code)
-2. [Python library for coding-test](https://github.com/hortenssiaa/break-through-algorithms/blob/master/daily-solving/day002-python-library.py)
+2. [Python library for coding-test](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#1-python-library-for-coding-test-code)
 
 ----
 <br>
 
 ### 1. Python grammer for coding-test ([code](https://github.com/hortenssiaa/break-through-algorithms/blob/master/daily-solving/day001-python-grammer.py)) 
-1.1 [자료형]()
+1.1 [자료형](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#11-자료형)
 <br>
-1.2 [List]()
+1.2 [List](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#12-list)
 <br>
 1.3 [문자열]()
 <br>
