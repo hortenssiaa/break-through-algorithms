@@ -1,7 +1,7 @@
 # 💔 Breaking Through Algorithms 
 ### Contents
 
-1. [Python grammer for coding-test]()
+1. [Python grammer for coding-test](https://github.com/hortenssiaa/break-through-algorithms/tree/master/README.md#1-python-grammer-for-coding-test-code)
 2. [Python library for coding-test](https://github.com/hortenssiaa/break-through-algorithms/blob/master/daily-solving/day002-python-library.py)
 
 ----
