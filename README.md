@@ -25,6 +25,8 @@
 1.8 [반복문](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#18-반복문)
 <br>
 1.9 [함수](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#19-함수)
+<br>
+1.10 [입출력](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#110-입출력)
 
 <br>
 
