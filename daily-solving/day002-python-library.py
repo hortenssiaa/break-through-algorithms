@@ -106,3 +106,56 @@ print(result3) # [('A',), ('B',), ('C',)]
 from itertools import combinations_with_replacement
 result = list(combinations_with_replacement(data, 2)) # 2개를 뽑는 모든 조합 구하기 (중복 허용)
 print(result) # [('A', 'A'), ('A', 'B'), ('A', 'C'), ('B', 'B'), ('B', 'C'), ('C', 'C')]
+
+
+
+
+
+# 3. heapq
+'''
+- heap 기능을 위해 라이브러리 제공
+- 다익스트라 최단경로 알고리즘, 우선순위 큐 기능 구현할때 사용
+- 파이썬 힙은, 최소 힙
+  > 단순히 원소를 힙에 전부 넣었다 빼는 것만으로 O(NlogN)에 오름차순 정렬 완료
+- heapq.heappush() : 힙에 원소 삽입
+- heapq.heappop() : 힙에 원소 꺼낼때 
+'''
+
+# 힙 정렬을 heapq로 구현하기
+import heapq
+def heapsort(iterable):
+    h = []
+    result = []
+
+    # 모든 원소 차례대로 힙에 삽입
+    for value in iterable:
+        heapq.heappush(h, value)
+
+    # 힙에 삽입된 모든 원소를 차례대로 꺼내어 담기
+    for _ in range(len(h)):
+        result.append(heapq.heappop(h))
+
+    return result
+
+result = heapsort([1, 3, 5, 7, 9, 2, 4, 6, 8, 0])
+print(result) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] O(NlogN)
+
+
+# 내림차순 힙 정렬 구현
+import heapq
+
+def heapsort(iterable):
+    h = []
+    result = []
+
+    # 모든 원소를 차례대로 힙에 삽입
+    for value in iterable:
+        heapq.heappush(h, -value)
+
+    # 힙에 삽입된 모든 원소 차례대로 꺼내 담기
+    for _ in range(len(h)):
+        result.append(-heapq.heappop(h))
+    return result
+
+result = heapsort([1, 3, 5, 7, 9, 2, 4, 6, 8, 0])
+print(result) # [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]  O(NlogN)
