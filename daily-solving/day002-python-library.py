@@ -159,3 +159,52 @@ def heapsort(iterable):
 
 result = heapsort([1, 3, 5, 7, 9, 2, 4, 6, 8, 0])
 print(result) # [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]  O(NlogN)
+
+
+
+
+# 4. bisect
+'''
+- 이진탐색을 쉽게 구현하는 라이브러리
+- 정렬된 배열에서 특정원소 찾아야 할때 매우 효과적
+- 핵심함수: bisect_left(), bisect_right()
+   -> 시간복잡도: O(logN)
+- bisect_left(a, x) : 
+   - 리스트 a, 삽입할 숫자 x
+   - 정렬된 순서를 유지하면서 리스트 a에 x 를 삽입할때, 가장 왼쪽에 있는 인덱스 값!!을 찾는 메서드
+- bisect_right(a, x) :
+   - 리스트 a, 삽입할 숫자 x
+   - 정렬된 순서를 유지하면서 리스트 a에 x 를 삽입할때, 가장 오른쪽에 있는 인덱스 값!!을 찾는 메서드
+- 예) [1, 2, 4, 4, 8]
+      bisect_left(a, 4) : 2
+         [1, 2, (여기), 4, 4, 8]
+      bisect_right(a, 4) : 4
+         [1, 2, 4, 4, (여기), 8]
+'''
+from bisect import bisect_left, bisect_right
+
+a = [1, 2, 4, 4, 8]
+x = 4
+
+print(bisect_left(a, x))
+print(bisect_right(a, x))
+
+
+# *** bisect_left(), bisect_right() 로, 특정 범위에 속하는 원소의 개수를 구할 수 있음
+def count_by_range(a, left_value, right_value):
+    left_index = bisect_left(a, left_value)
+    right_index = bisect_right(a, right_value)
+    return right_index - left_index
+
+a = [1, 2, 3, 3, 3, 3, 4, 7, 7, 7, 8, 9]
+print(count_by_range(a, 3, 7))
+
+# *** bisect_left(), bisect_right() 로, 특정 원소의 개수를 구할 수 있음
+def count_the_number(a, x):
+    right_index = bisect_right(a, x)
+    left_index = bisect_left(a, x)
+    return right_index - left_index
+
+print(count_the_number(a, 3))
+print(count_the_number(a, 4))
+print(count_the_number(a, 7))
