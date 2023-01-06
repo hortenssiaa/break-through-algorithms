@@ -211,7 +211,7 @@ print(count_the_number(a, 7))
 
 
 
-# collection
+# collections
 '''
 - 코테에서 유용하게 사용되는 클래스: deque, Counter
 - duque: 큐 자료구조 구현
@@ -225,6 +225,7 @@ print(count_the_number(a, 7))
         가장 앞 원소 추가/제거 : O(N)
 '''
 
+# collections - dequeue
 from collections import deque
 
 data = deque([2, 3, 4])
@@ -233,3 +234,19 @@ data.append(5)
 
 print(data)
 print(list(data)) # list 자료형으로 변환
+
+
+# collections - Ciounter
+# 등장 횟수를 세는 기능
+'''
+리스트와 같은 iterable 객체 내에, 원소가 몇번씩 등장했는지 알 수 있음
+'''
+
+from collections import Counter
+
+counter = Counter(['red', 'blue', 'red', 'green', 'blue', 'blue'])
+
+print(counter['blue'])
+print(counter['Blue'])
+print(counter['green'])
+print(dict(counter))
