@@ -250,3 +250,23 @@ print(counter['blue'])
 print(counter['Blue'])
 print(counter['green'])
 print(dict(counter))
+
+
+
+
+
+# math
+# factorial(x) == x!
+import math
+
+print(math.factorial(5)) #5!
+
+# sqrt(x) == 제곱근
+print(math.sqrt(7)) # 루트 7
+
+# gcd(a, b) == a와 b의 최대공약수
+print(math.gcd(21, 14))
+
+# pi, e
+print(math.pi)
+print(math.e)
