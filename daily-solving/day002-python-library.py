@@ -208,3 +208,28 @@ def count_the_number(a, x):
 print(count_the_number(a, 3))
 print(count_the_number(a, 4))
 print(count_the_number(a, 7))
+
+
+
+# collection
+'''
+- 코테에서 유용하게 사용되는 클래스: deque, Counter
+- duque: 큐 자료구조 구현
+        - 가장 앞/뒤 원소 추가/제거 : O(1)
+            - 첫 번째 원소 제거 : popleft()
+            - 마지막 원소 제가 : pop()
+            - 첫 번째 원소 삽입 : appendleft(x)
+            - 마지막 원소 삽입 : append(x)
+        - 스택, 큐 기능 포함
+- list: append(), pop() 이 O(1)으로 가능하지만, '맨 뒤 원소'를 기준
+        가장 앞 원소 추가/제거 : O(N)
+'''
+
+from collections import deque
+
+data = deque([2, 3, 4])
+data.appendleft(1)
+data.append(5)
+
+print(data)
+print(list(data)) # list 자료형으로 변환
