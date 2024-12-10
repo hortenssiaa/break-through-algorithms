@@ -10,3 +10,7 @@
 따라서 길이 L에서 중복이 없다면, L보다 큰 길이에서는 중복이 있을 수 없다는 결론을 내릴 수 있다.
 
 - 반대로, 길이 L의 부분 문자열이 중복된다면, 더 짧은 길이에서도 중복이 있을 가능성이 있으므로, 이분탐색의 범위를 줄여가며 더 짧은 길이에서의 중복을 확인하게 된다.
+
+### 손글씨 정리
+![Coding-59](https://github.com/user-attachments/assets/bd0dc649-19cb-4346-bf7d-6c9944d0a48c) | ![Coding-60](https://github.com/user-attachments/assets/43a7a5a9-6231-4a80-98e1-b444e1996a1f)
+--- | --- | 
