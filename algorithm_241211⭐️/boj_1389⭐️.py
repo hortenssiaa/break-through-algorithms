@@ -17,7 +17,7 @@ min_kevin_bacon = 1e9
 min_person = -1
 
 for startPoint in range(N):
-  # startPoint를 시작점으로 하는 BFS
+  # startPoint를 시작점으로 하는 BFS 
   # 각 노드까지의 최단거리를 구해서 다 합치기
   visit = [False] * N
   dist = [-1] * N
