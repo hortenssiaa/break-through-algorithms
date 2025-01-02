@@ -19,6 +19,6 @@ for i in range(1, N):
     if i >= 3:
         B[i] = S[i] + S[i - 1] + max(A[i - 3], B[i - 3])
     else:
-        A[i] = S[i] + S[i - 1]
+        B[i] = S[i] + S[i - 1]
 
-print(max(A[N-1], B[N-1]))
+print(max(A[N - 1], B[N - 1]))
