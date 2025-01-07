@@ -1,13 +1,18 @@
 # 💔 Breaking Through Algorithms 
 ### Contents
 
+0. [자료구조 & 알고리즘 종류](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#0-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0--%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A2%85%EB%A5%98)
 1. [Python grammer for coding-test](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#1-python-grammer-for-coding-test-code)
 2. [Python library for coding-test](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#2-python-library-for-coding-test-code)
 
-----
 <br>
 
-<img src="https://github.com/user-attachments/assets/30c445e4-3dce-4971-a545-b478f13af667" width="400" >
+----
+
+<br>
+
+### 0. 자료구조 & 알고리즘 종류
+
 
 |ch1. 기초 자료구조|ch2. 응용 자료구조|ch3. 기초 알고리즘|ch4. 응용 알고리즘|
 |:---|:---|:---|:---|
@@ -17,6 +22,7 @@
 |4. [큐](https://github.com/hortenssiaa/break-through-algorithms/tree/master/algorithm_241128#%ED%81%90) |4. [우선순위 큐]()| 4. [투 포인터 알고리즘]()| 4. [다이나믹 프로그래밍](https://github.com/hortenssiaa/break-through-algorithms/tree/master/algorithm_241224%E2%AD%90%EF%B8%8F)|
 | |5. [해쉬]()| 5. [그리디 알고리즘]()| 5. [위상정렬](https://github.com/hortenssiaa/break-through-algorithms/tree/master/algorithm_241227%E2%AD%90%EF%B8%8F)|
 
+<br>
 
 ----
 <br>
