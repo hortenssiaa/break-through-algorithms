@@ -7,6 +7,20 @@
 ----
 <br>
 
+<img src="https://github.com/user-attachments/assets/30c445e4-3dce-4971-a545-b478f13af667" width="400" >
+
+|ch1. 기초 자료구조|ch2. 응용 자료구조|ch3. 기초 알고리즘|ch4. 응용 알고리즘|
+|:---|:---|:---|:---|
+|1. [배열](https://github.com/hortenssiaa/break-through-algorithms/tree/master/algorithm_241127#%EB%B0%B0%EC%97%B4) |1. [누적합 배열]()|1. [이분탐색 알고리즘]()| 1. [그래프 탐색(BFS)](https://github.com/hortenssiaa/break-through-algorithms/tree/master/algorithm_241211%E2%AD%90%EF%B8%8F)|
+|2. [문자열](https://github.com/hortenssiaa/break-through-algorithms/tree/master/algorithm_241127#%EB%AC%B8%EC%9E%90%EC%97%B4) |2. [트리]()| 2. [정렬 알고리즘]()| 2. [그래프 탐색(DFS)](https://github.com/hortenssiaa/break-through-algorithms/tree/master/algorithm_241217%E2%AD%90%EF%B8%8F)|
+|3. [스택](https://github.com/hortenssiaa/break-through-algorithms/tree/master/algorithm_241128#%EC%8A%A4%ED%83%9D) |3. [그래프]()| 3. [완전탐색 알고리즘]()| 3. [최단거리 (다익스트라 알고리즘)](https://github.com/hortenssiaa/break-through-algorithms/tree/master/algorithm_241219%E2%AD%90%EF%B8%8F)|
+|4. [큐](https://github.com/hortenssiaa/break-through-algorithms/tree/master/algorithm_241128#%ED%81%90) |4. [우선순위 큐]()| 4. [투 포인터 알고리즘]()| 4. [다이나믹 프로그래밍](https://github.com/hortenssiaa/break-through-algorithms/tree/master/algorithm_241224%E2%AD%90%EF%B8%8F)|
+| |5. [해쉬]()| 5. [그리디 알고리즘]()| 5. [위상정렬](https://github.com/hortenssiaa/break-through-algorithms/tree/master/algorithm_241227%E2%AD%90%EF%B8%8F)|
+
+
+----
+<br>
+
 ### 1. Python grammer for coding-test ([code](https://github.com/hortenssiaa/break-through-algorithms/blob/master/daily-solving/day001-python-grammer.py)) 
 1.1 [자료형](https://github.com/hortenssiaa/break-through-algorithms/blob/master/README.md#11-자료형)
 <br>
